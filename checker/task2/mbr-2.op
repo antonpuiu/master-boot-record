@@ -1,0 +1,23 @@
+PRINT /dev/sda
+PRINT /dev/sdb
+PRINT /dev/sdc
+PRINT /dev/sdb/mosu
+PRINT /dev/sdx
+DELETE_DIR /dev/sdb
+DELETE_DIR /dev/sdb/mosu
+DELETE_DIR /dev/sda/revelion
+DELETE_DIR /dev/sdx/cti
+PRINT /dev/sdb/mosu
+PRINT /dev/sdd/pl
+PRINT /dev/sdx/cti
+CREATE_DIR /dev/sdb/mosu
+CREATE_DIR /dev/sdb/santa
+CREATE_DIR /dev/sda/rev
+CREATE_DIR /dev/sdx/pl
+CREATE_FILE /dev/sdx/pl/cd4047
+PRINT /dev/sdx/pl
+PRINT /dev/sda/rev
+PRINT /dev/sdb/mosu
+PRINT /dev/sdb/santa
+
+

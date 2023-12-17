@@ -1,0 +1,19 @@
+PRINT /dev/sdb/mosu
+PRINT /dev/sda/cti
+CREATE_FILE /dev/sdb/mosu/bucurie
+PRINT /dev/sdb
+DELETE_FILE /dev/sda/restanta
+PRINT /dev/sda
+CREATE_FILE /dev/sdb/mosu/bucuros
+PRINT /dev/sdb
+CREATE_FILE /dev/sdb/mosu/pup
+RENAME_FILE /dev/sdb/mosu/cd4011 bucurie
+PRINT /dev/sdb/mosu
+RENAME_FILE /dev/sdb/mosu/bucurie pupic
+PRINT /dev/sdb/mosu
+RENAME_FILE /dev/sdb/mosu/pupic pup
+PRINT /dev/sdb/mosu
+RENAME_FILE /dev/sdb/mosu/pup barba
+PRINT /dev/sdb/mosu
+RENAME_FILE /dev/sdb/mosu/barba pup
+

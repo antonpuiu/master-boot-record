@@ -1,0 +1,15 @@
+PRINT /dev/craciun
+PRINT /dev/sda
+PRINT /dev/sdx
+PRINT /dev/sdc
+PRINT /dev/sdc/craciun
+RENAME_DIR /dev/sdc/craciun revelion
+DELETE_DIR /dev/sdx/revelion
+PRINT /dev/sda
+PRINT /dev/sdc/revelion
+CREATE_DIR /dev/sdx/revelion
+RENAME_DIR /dev/sdc/revelion craciun
+PRINT /dev/sdc/craciun
+PRINT /dev/sdc
+PRINT /dev/sda
+PRINT /dev/sdx
